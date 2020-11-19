@@ -10,5 +10,4 @@ def countingValleys(steps, path):
     return valley
 
 mylist = random.choices(["D","U"], k = int(np.random.randint(1,100,size=1)))
-print(countingValleys(len(mylist),
-                      mylist))
+print(countingValleys(len(mylist),mylist))
